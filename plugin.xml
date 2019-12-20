@@ -8,11 +8,11 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="settings">
-                <param name="android-package" value="cordova.plugin.settings.settings"/>
+                <param name="android-package" value="org.apache.cordova.settings.settings"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"/>
-        <source-file src="src/android/settings.java" target-dir="src/cordova/plugin/settings/settings"/>
+        <source-file src="src/android/settings.java" target-dir="src/org/apache/cordova/settings"/>
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
