@@ -1,4 +1,4 @@
-package cordova.plugin.settings;
+package org.apache.cordova.settings;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -15,7 +15,7 @@ import java.lang.Exception;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class settings extends CordovaPlugin {
+public class Settings extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
