@@ -2,14 +2,14 @@
 
 #import <Cordova/CDV.h>
 
-@interface NoticeSetting : CDVPlugin {
+@interface SystemSettings : CDVPlugin {
   // Member variables go here.
 }
 
 - (void)systemNoticeSetting:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation NoticeSetting
+@implementation SystemSettings
 
 - (void)systemNoticeSetting:(CDVInvokedUrlCommand*)command
 {

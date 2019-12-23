@@ -15,7 +15,7 @@ import java.lang.Exception;
 /**
  * This class echoes a string called from JavaScript.
  */
-public class Settings extends CordovaPlugin {
+public class SystemSettings extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {

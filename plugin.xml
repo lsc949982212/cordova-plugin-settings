@@ -7,19 +7,19 @@
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="Settings">
-                <param name="android-package" value="org.apache.cordova.settings.Settings"/>
+            <feature name="SystemSettings">
+                <param name="android-package" value="org.apache.cordova.settings.SystemSettings"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"/>
-        <source-file src="src/android/Settings.java" target-dir="src/org/apache/cordova/settings"/>
+        <source-file src="src/android/SystemSettings.java" target-dir="src/org/apache/cordova/settings"/>
     </platform>
     <platform name="ios">
         <config-file parent="/*" target="config.xml">
-            <feature name="Settings">
-                <param name="ios-package" value="Settings"/>
+            <feature name="SystemSettings">
+                <param name="ios-package" value="SystemSettings"/>
             </feature>
         </config-file>
-        <source-file src="src/ios/Settings.m"/>
+        <source-file src="src/ios/SystemSettings.m"/>
     </platform>
 </plugin>
